@@ -6,10 +6,13 @@ var app = document.getElementById('typewriter');
     });
   
     typewriter
-      .typeString('Informatics Engineering Student')
+      .typeString('Telecommunications Engineering Student')
       .pauseFor(3500)
       .deleteAll()
-      .typeString('WEB DEVELOPER')
+      .typeString('IT Support')
+      .pauseFor(3500)
+      .deleteAll()
+      .typeString('Web Developer')
       .pauseFor(3500)
       .start();
       
